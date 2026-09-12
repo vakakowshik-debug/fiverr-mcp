@@ -1,0 +1,13 @@
+{
+  "name": "fiverr-mcp",
+  "version": "1.0.0",
+  "description": "Remote MCP server for Claude",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "express": "^5.1.0"
+  }
+}
